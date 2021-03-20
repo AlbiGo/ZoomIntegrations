@@ -1,0 +1,38 @@
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.exe
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.deps.json
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.runtimeconfig.json
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.runtimeconfig.dev.json
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Zoom Integration.pdb
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.AssemblyInfo.cs
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\staticwebassets\Zoom Integration.StaticWebAssets.Manifest.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\staticwebassets\Zoom Integration.StaticWebAssets.xml
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\scopedcss\bundle\Zoom Integration.styles.css
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csproj.CopyComplete
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.pdb
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.genruntimeconfig.cache
