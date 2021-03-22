@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\RequestDTO\" />
     <Folder Include="Utilites\" />
   </ItemGroup>
 

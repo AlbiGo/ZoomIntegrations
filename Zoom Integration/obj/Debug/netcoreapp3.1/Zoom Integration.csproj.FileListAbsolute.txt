@@ -23,7 +23,6 @@ C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreap
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csprojAssemblyReference.cache
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.AssemblyInfo.cs
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csproj.CoreCompileInputs.cache
@@ -36,3 +35,4 @@ C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreap
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.dll
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.pdb
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.genruntimeconfig.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csprojAssemblyReference.cache

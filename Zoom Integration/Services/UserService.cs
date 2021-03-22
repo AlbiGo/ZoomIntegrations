@@ -31,12 +31,14 @@ namespace Zoom_Integration.Services
                 {
                     httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiToken);
                     var response = await httpClient.GetAsync(url);
-                    if(response.StatusCode == System.Net.HttpStatusCode.OK)
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
                         string apiResponse = await response.Content.ReadAsStringAsync();
                         var res = JsonConvert.DeserializeObject<PageInfoDTO>(apiResponse);
                         users = res.users;
                     }
+                    else
+                        throw new Exception("Unauthorized");
                    
                 }
                 return users;
@@ -47,5 +49,34 @@ namespace Zoom_Integration.Services
                 throw ex;
             }
         }
+
+        public async Task<UserInformationDTO> getcurrentUser(string apiToken)
+        {
+            try
+            {
+                var user = new UserInformationDTO();
+                var url = _configuration.GetSection("ZoomEndpoints:Endpoints:2:url").Value;
+                using (var httpClient = new HttpClient())
+                {
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiToken);
+                    var response = await httpClient.GetAsync(url);
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        string apiResponse = await response.Content.ReadAsStringAsync();
+                        var res = JsonConvert.DeserializeObject<UserInformationDTO>(apiResponse);
+                        user = res;
+                    }
+                    else
+                        throw new Exception("Unauthorized");
+
+                }
+                return user;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

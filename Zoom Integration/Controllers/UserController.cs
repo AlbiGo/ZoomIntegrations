@@ -15,14 +15,15 @@ namespace Zoom_Integration.Controllers
     {
         private readonly IUserService _userService;
 
+
         public UserController(IUserService userService)
         {
             _userService = userService;
         }
 
       //  [Authorize]
-        [HttpGet("~/api/v1/getCurrentUser")]
-        public async Task<IActionResult> getCurrentUser()
+        [HttpGet("~/api/v1/getAllUsers")]
+        public async Task<IActionResult> getAllUsers()
         {
             try
             {
@@ -33,15 +34,35 @@ namespace Zoom_Integration.Controllers
                 }
                 var apiKey = HttpContext.Request.Headers["Authorization"].FirstOrDefault().ToString();
                 var apiNew = apiKey.Replace("Bearer ", "");
-                var user =await _userService.getUserInformation(apiNew);
-                if (user.id == null)
-                {
-                    return new NotFoundResult();
-                }
-                else return Ok(user);
+                var users =   await _userService.getAllUsers(apiNew);
+                return Ok(users);
 
             }
             catch(Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex}");
+
+            }
+        }
+
+        // [Authorize]
+        [HttpGet("~/api/v1/getCurrentUser")]
+        public async Task<IActionResult> getCurrentUser()
+        {
+            try
+            {
+                var isAuth = HttpContext.Request.Headers.ContainsKey("Authorization");
+                if (!isAuth)
+                {
+                    return Unauthorized("You dont have a valid api key");
+                }
+                var apiKey = HttpContext.Request.Headers["Authorization"].FirstOrDefault().ToString();
+                var apiNew = apiKey.Replace("Bearer ", "");
+                var user = await _userService.getcurrentUser(apiNew);
+                return Ok(user);
+
+            }
+            catch (Exception ex)
             {
                 return StatusCode(500, $"Internal server error: {ex}");
 

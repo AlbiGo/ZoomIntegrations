@@ -9,6 +9,8 @@ namespace Zoom_Integration.Interfaces
     public interface IUserService
     {
         public  Task<List<User>> getAllUsers(string s);
+        public Task<UserInformationDTO> getcurrentUser(string apiToken);
+
 
     }
 }
