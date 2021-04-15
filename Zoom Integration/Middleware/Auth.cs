@@ -22,7 +22,7 @@ namespace Zoom_Integration.Middleware
             if (token == null)
             {
                 context.Response.StatusCode = 401;
-                await context.Response.WriteAsync("Access denied!");
+                await context.Response.WriteAsync("Access denied! You dont have an authorization token.");
                 return;
             }
 

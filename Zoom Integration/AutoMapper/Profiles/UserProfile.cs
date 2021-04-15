@@ -13,7 +13,7 @@ namespace Zoom_Integration.AutoMapper.Profiles
 
         public UserProfile()
         {
-            CreateMap<User, UserViewModel>()
+            CreateMap<UserInformationDTO, UserViewModel>()
                    .ForMember(dest =>
                        dest.first_name,
                        opt => opt.MapFrom(src => src.first_name))

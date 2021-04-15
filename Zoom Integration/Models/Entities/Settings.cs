@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Zoom_Integration.Models.Entities;
 
 namespace Zoom_Integration.Models.RequestDTO
 {
@@ -22,7 +23,7 @@ namespace Zoom_Integration.Models.RequestDTO
         public bool enforce_login { get; set; }
         public string enforce_login_domains { get; set; }
         public string alternative_hosts { get; set; }
-        public List<string> global_dial_in_countries { get; set; }
+        public List<GlobalDialInNumber> global_dial_in_countries { get; set; }
         public bool registrants_email_notification { get; set; }
     }
 }

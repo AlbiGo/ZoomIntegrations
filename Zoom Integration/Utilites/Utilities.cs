@@ -9,7 +9,7 @@ namespace Zoom_Integration.Utilites
 {
     public static class Utilities
     {
-        public static string buildQueryString(string filter)
+        public static string buildQueryString(object filter)
         {
             JObject jObj = (JObject)JToken.FromObject(filter);
 

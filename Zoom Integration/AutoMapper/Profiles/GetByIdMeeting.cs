@@ -13,7 +13,7 @@ namespace Zoom_Integration.AutoMapper.Profiles
     {
         public GetByIdMeeting()
         {
-            CreateMap<Meeting, MeetingModelGetById>()
+            CreateMap<Meeting, MeetingViewModel>()
                    .ForMember(dest =>
                        dest.hostEmail,
                        opt => opt.MapFrom(src => src.host_email))

@@ -35,4 +35,12 @@ C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreap
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.dll
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.pdb
 C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.genruntimeconfig.cache
-C:\Users\User\source\repos\Zoom Integration\Zoom Integration\obj\Debug\netcoreapp3.1\Zoom Integration.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\source\repos\Zoom Integration\Zoom Integration\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
