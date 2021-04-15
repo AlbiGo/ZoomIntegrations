@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Zoom Integration</name>
+    </assembly>
+    <members>
+        <member name="T:Zoom_Integration.Controllers.MeetingController">
+            <summary>  
+            The class that handles all requests to Meeting Entity
+            </summary>  
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.#ctor(Zoom_Integration.Interfaces.IMeetingService)">
+            <summary>  
+            Constructor
+            </summary>  
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.createMeeting(Zoom_Integration.Models.RequestDTO.CreateMeetingDTO)">
+            <summary>  
+            Create Meeting
+            </summary>  
+            <param name="model"> Meeting Object </param>  
+            <returns>Returns HTTP Response</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.updateMeeting(Zoom_Integration.Models.RequestDTO.UpdateMeetingDTO,System.String)">
+            <summary>  
+            Update Meeting
+            </summary>  
+            <param name="model"> Meeting Object </param>  
+            <param name="meetingId"> Meeting ID</param>  
+            <returns>Returns HTTP Response</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.deleteMeeting(System.String)">
+            <summary>  
+            Delete Meeting
+            </summary>  
+            <param name="meetingId"> Meeting ID</param>  
+            <returns>HTTP Response</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.getMeeting(System.String)">
+            <summary>  
+            Get Meeting by ID
+            </summary>  
+            <param name="meetingId"> Meeting ID</param>  
+            <returns>Meeting</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.MeetingController.gellAllMeetings(Zoom_Integration.Models.RequestDTO.MeetingFilter)">
+            <summary>  
+            Get all Meetings  
+            </summary>  
+            <returns>Returns a paginated list of Meetings</returns>  
+        </member>
+        <member name="T:Zoom_Integration.Controllers.UserController">
+            <summary>  
+            The class that handles all requests to User Entity
+            </summary>  
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.#ctor(Zoom_Integration.Interfaces.IUserService)">
+            <summary>  
+            Constructor
+            </summary>  
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.getAllUsers(Zoom_Integration.Models.RequestDTO.UserFilter)">
+            <summary>  
+            Get all Users  
+            </summary>  
+            <returns>Returns a paginated list of Users</returns>  
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.getCurrentUser">
+            <summary>  
+            Get the current logged User  
+            </summary>  
+            <returns>Returns the correct logged User</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.getcurrentUserDetails">
+            <summary>  
+            Get the current logged User  details
+            </summary>  
+            <returns>Returns the correct logged User details</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.getUserInfo(System.String)">
+            <summary>  
+            Get  User  details
+            </summary>  
+            <param name="userId"> User ID</param>  
+            <returns>Returns the correct logged User details</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.createUser(Zoom_Integration.Models.RequestDTO.CreateUserDTO)">
+            <summary>  
+            Create User
+            </summary>  
+            <param name="model"> User Object </param>  
+            <returns>Returns HTTP Response</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.updateUser(Zoom_Integration.Models.RequestDTO.updateUserDTO,System.String)">
+            <summary>  
+            Update User
+            </summary>  
+            <param name="model"> User Object </param>  
+            <param name="userId"> User ID</param>  
+            <returns>Returns HTTP Response</returns>   
+        </member>
+        <member name="M:Zoom_Integration.Controllers.UserController.deleteUser(System.String)">
+            <summary>  
+            Delete User
+            </summary>  
+            <param name="userId"> User ID</param>  
+            <returns>HTTP Response</returns>   
+        </member>
+    </members>
+</doc>
