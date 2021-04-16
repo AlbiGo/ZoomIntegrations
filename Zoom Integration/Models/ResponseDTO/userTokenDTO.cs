@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Zoom_Integration.Models.ResponseDTO
 {
-    public class userTokenDTO
+    public class UserTokenDTO
     {
         public string token { get; set; }
     }

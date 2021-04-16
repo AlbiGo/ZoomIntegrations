@@ -15,7 +15,7 @@ namespace Zoom_Integration.Interfaces
         public Task<UserInformationDTO> getcurrentUserDetails(string apiToken);
         public Task<CreatedUserDTO> createUser(string apiToken, CreateUserDTO model);
         public Task deleteUser(string apiToken, string userID);
-        public Task updateUser(string apiToken, updateUserDTO model, string userId);
+        public Task updateUser(string apiToken, UpdateUserDTO model, string userId);
         public Task<UserInformationDTO> getUser(string apikey, string id);
 
 

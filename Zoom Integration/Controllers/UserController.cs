@@ -156,7 +156,7 @@ namespace Zoom_Integration.Controllers
         /// <param name="userId"> User ID</param>  
         /// <returns>Returns HTTP Response</returns>   
         [HttpPut("~/api/v1/updateUser")]
-        public async Task<IActionResult> updateUser([FromBody] updateUserDTO model,[FromQuery] string userId)
+        public async Task<IActionResult> updateUser([FromBody] UpdateUserDTO model,[FromQuery] string userId)
         {
             try
             {

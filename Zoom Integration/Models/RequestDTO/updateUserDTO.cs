@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Zoom_Integration.Models.RequestDTO
 {
-    public class updateUserDTO
+    public class UpdateUserDTO
     {
         public string first_name { get; set; }
         public string last_name { get; set; }

@@ -224,7 +224,7 @@ namespace Zoom_Integration.Services
                 throw ex;
             }
         }
-        public async Task updateUser(string apiToken, updateUserDTO model ,string userId)
+        public async Task updateUser(string apiToken, UpdateUserDTO model ,string userId)
         {
             try
             {
