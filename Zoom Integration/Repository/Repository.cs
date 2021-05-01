@@ -8,15 +8,15 @@ namespace Zoom_Integration.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        public void Add(T entity)
+        public async Task Add(T entity)
         {
 
         }
-        public void Update(T entity)
+        public async Task Update(T entity)
         {
 
         }
-        public void Delete(T entity)
+        public async Task Delete(T entity)
         {
 
         }
